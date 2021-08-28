@@ -14,8 +14,7 @@ def clearing_data(value):
         # Decimal Value Checking
         list_data = list(value)
         if len(list_data) == 1:
-            min_first = float(list_data[0])
-            min_second = min_first
+            continue
         else:
             min_first = float(list_data[0])
             min_second = float(list_data[1])
